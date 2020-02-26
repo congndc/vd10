@@ -32,6 +32,7 @@ namespace vd10.Models
         [Required(ErrorMessage = "Not NULL")]
         public string LastName { get; set; }
         [DataType(DataType.Date)]
+        [Required(ErrorMessage = "Not NULL")]
         public DateTime DOB { get; set; }
         [ForeignKey("GenderID")]
         public int? GenderID { get; set; }
