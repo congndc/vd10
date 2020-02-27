@@ -15,10 +15,10 @@ namespace vd10.Models
     {
         [Key]
         public int EnrollmentID { get; set; }
-        [DisplayName("Student Name")]
+        [DisplayName("Srudent Name")]
         [Required(ErrorMessage ="Error Student")]
         public int? StudentID { get; set; }
-        [DisplayName("Course Name")]
+        [DisplayName("Course ")]
         [Required(ErrorMessage = "Error Course")]
         public int? CourseID { get; set; }
         [DataType(DataType.Date)]
